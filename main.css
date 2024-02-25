@@ -1,0 +1,563 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: CircularSp,spotyfy-circular,Arial, Helvetica, sans-serif;
+   
+}
+body{
+    overflow-x: hidden;
+}
+#nav{
+    border: 2px solid;
+    height: 80px;
+    background-color: #000;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+#sub-nav span svg{
+    height: 3em;
+    margin-top: 15px;
+    fill: #fff;
+
+}
+#sub-nav p{
+/* border: 2px solid green; */
+position: absolute;
+top: 33px;
+left: 54%;
+font-weight: 700;
+font-size: 16px;
+word-spacing: 23px;
+color: #fff;
+}
+#main{
+    border: 2px solid;
+    height: 550px;
+    background-color: #9c2fec;;
+}
+#sub-main{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+#left h1{
+    color: #fff;
+    font-size: 38px;
+    margin-top: 70px;
+}
+#left h2{
+    color: #fff;
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+#left div{
+    margin-top: 40px;
+}
+#left div button{
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+#left div button+button{
+    background: none;
+    border: 2px solid;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+}
+#right{
+    /* border: 2px solid ; */
+    height: 400px;
+    width: 400px;
+    background-image: url("./image/ab671c3d0000f4305295fd5ab3084ce2135a8f80.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 160px;
+    right: 195px;
+}
+
+#main1 h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+    color: #000;
+}
+div img{
+    display: inline;
+    height: 150px;
+    width: 150px;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+
+.para1{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.3em;
+}
+.para2{
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+#des1{
+    margin-left: 150px;
+    margin-top: 30px;
+    
+}
+#des2{
+    position: relative;
+    left: 33%;
+    bottom: 45px;
+    
+}
+#des3{
+    position: relative;
+    left: 55%;
+    bottom: 95px;
+    width: 250px;
+    text-align: center;
+}
+#des4{
+    position: relative;
+    left: 75%;
+    bottom: 165px;
+    width: 230px;
+    text-align: center;
+}
+#main2{
+    height: 1150px;
+    width: 100%;
+    background-color: #efefef;
+}
+#main2 h1{
+    position: relative;
+    top: 5%;
+    text-align: center;
+    font-size: 40px;
+
+}
+#main2  p{
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+#payments{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 40px;
+    left: 30%;
+    
+}
+li{
+   
+    width: 40px;
+
+}
+#payments img{
+    height: 30px;
+    width: 30px;
+}
+#mini{
+    height: 570px;
+    width: 270px;
+    border: 2px solid;
+    margin-top: 10%;
+    margin-left: 10px;
+    padding: 13px;
+    box-shadow: 0px 0px 10px #b7b7b7 ;
+    border-radius: 7px;
+    background-color: #fff;
+    border: none;
+
+}
+#mini span{
+    border: 2px solid #0d72ea;
+    position: relative;
+    top: 20px;
+    padding: 4px 8px;
+    /* left: 10px; */
+    color: #0d72ea;
+    border-radius: 4px;
+}
+#mini h2{
+    position: relative;
+    top: 25px;
+    /* left: 10px; */
+}
+#mini p{
+   position: relative;
+   
+   text-align: left; 
+}
+hr{
+    position: relative;
+    top: 100px;
+}
+#mini ul{
+    position: relative;
+    top: 120px;
+    list-style: none;
+    
+}
+#mini ul li{
+    display: flex;
+    width: 200px;
+   
+    
+}
+#mini button{
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: 48%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+#mini a{
+    color: rgb(83, 83, 83);
+    position: relative;
+    top: 52%;
+    font-size: 12px;
+}
+#individual{
+    height: 570px;
+    width: 270px;
+    border: 2px solid;
+    margin-top: 10%;
+    margin-left: 10px;
+    padding: 13px;
+    box-shadow: 0px 0px 10px #b7b7b7 ;
+    border-radius: 7px;
+    background-color: #fff;
+    border: none;
+
+}
+#individual span{
+    border: 2px solid #0d72ea;
+    position: relative;
+    top: 20px;
+    padding: 4px 8px;
+    /* left: 10px; */
+    color: #0d72ea;
+    border-radius: 4px;
+}
+/* #span1{
+    background-color: #0d72ea;
+    color: #fff;
+} */
+#individual h2{
+    position: relative;
+    top: 25px;
+    /* left: 10px; */
+}
+#individual p{
+   position: relative;
+   
+   text-align: left; 
+}
+hr{
+    position: relative;
+    /* top: 10px; */
+}
+#individual ul{
+    position: relative;
+    top: 120px;
+    list-style: none;
+    
+}
+#individual ul li{
+    display: flex;
+    width: 200px;
+    
+}
+#individual button{
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: 40%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+#individual a{
+    color: rgb(83, 83, 83);
+    position: relative;
+    top: 45%;
+    font-size: 12px;
+}
+#Duo{
+    height: 570px;
+    width: 270px;
+    border: 2px solid;
+    margin-top: 10%;
+    margin-left: 10px;
+    padding: 13px;
+    box-shadow: 0px 0px 10px #b7b7b7 ;
+    border-radius: 7px;
+    background-color: #fff;
+    border: none;
+
+}
+#Duo span{
+    border: 2px solid #0d72ea;
+    position: relative;
+    top: 20px;
+    padding: 4px 8px;
+    /* left: 10px; */
+    color: #0d72ea;
+    border-radius: 4px;
+}
+/* #span1{
+    background-color: #0d72ea;
+    color: #fff;
+} */
+#Duo h2{
+    position: relative;
+    top: 25px;
+    /* left: 10px; */
+}
+#Duo p{
+   position: relative;
+   
+   text-align: left; 
+}
+hr{
+    position: relative;
+    top: 100px;
+}
+#Duo ul{
+    position: relative;
+    top: 120px;
+    list-style: none;
+    
+}
+#Duo ul li{
+    display: flex;
+    width: 200px;
+    
+}
+#Duo button{
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: 40%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+#Duo a{
+    color: rgb(83, 83, 83);
+    position: relative;
+    top: 45%;
+    font-size: 12px;
+}
+
+#family{
+    height: 570px;
+    width: 270px;
+    border: 2px solid;
+    margin-top: 10%;
+    margin-left: 10px;
+    padding: 13px;
+    box-shadow: 0px 0px 10px  #b7b7b7;
+    border-radius: 7px;
+    background-color: #fff;
+    border: none;
+
+}
+#family span{
+    border: 2px solid #0d72ea;
+    position: relative;
+    top: 20px;
+    padding: 4px 8px;
+    /* left: 10px; */
+    color: #0d72ea;
+    border-radius: 4px;
+}
+/* #span1{
+    background-color: #0d72ea;
+    color: #fff;
+} */
+#family h2{
+    position: relative;
+    top: 25px;
+    /* left: 10px; */
+}
+#family p{
+   position: relative;
+   
+   text-align: left; 
+}
+hr{
+    position: relative;
+    top: 100px;
+}
+#family ul{
+    position: relative;
+    top: 120px;
+    list-style: none;
+    
+}
+#family ul li{
+    display: flex;
+    width: 200px;
+    
+}
+#family button{
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: 35%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+}
+#family a{
+    color: rgb(83, 83, 83);
+    position: relative;
+    top: 40%;
+    font-size: 12px;
+}
+#plans{
+    display: flex;
+    justify-content: center;
+    
+}
+#special{
+    list-style: none;
+    
+}
+#students{
+    display: flex;
+    justify-content: space-around;
+    width: 780px;
+    height: 80px;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    left: 26%;
+    box-shadow: 0px 0px 10px  #b7b7b7;
+    border-radius: 7px;
+    background-color: #fff;
+    border: none;
+}
+#students button{
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+   
+}
+footer{
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+}
+
+footer div span svg{
+    height: 40px;
+    width: 120px;
+    fill: #fff;
+    
+}
+
+#company{
+    color: #fff;
+    /* border: 2px solid green; */
+    
+    
+}
+#company dd:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+#COMMUNITIES{
+    color: #fff;
+    /* border: 2px solid green; */
+    
+}
+#COMMUNITIES dd:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+#USEFUL{
+    color: #fff;
+    /* border: 2px solid green; */
+    
+}
+#USEFUL dd:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    position: relative;
+    top: 120px;
+    left: 80px;
+}
+dd{
+    line-height: 40px;
+}
+.logo{
+    position: relative;
+    bottom: 50px;
+}
+#social-media{
+    
+    color: #fff;
+    width: 220px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: 73%;
+   position: relative;
+   bottom: 110px;
+   
+    
+}
+#social-media i:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+#last-footer{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    width: 500px;
+    font-size: 10px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+#last-footer p:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+
+
